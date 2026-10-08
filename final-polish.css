@@ -24,11 +24,11 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
   gap: 22px;
-  align-items: stretch;
+  align-items: start;
 }
 
 .about-content-grid .bio-panel {
-  height: 100%;
+  height: auto;
 }
 
 .availability-panel {
