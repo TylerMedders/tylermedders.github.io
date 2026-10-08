@@ -15,6 +15,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="mobile-polish.css">
+  <link rel="stylesheet" href="final-polish.css">
 </head>
 <body>
   <header class="site-header">
@@ -56,15 +57,27 @@
     </section>
 
     <section class="section section-white" id="about">
-      <div class="container about-grid">
-        <div>
+      <div class="container">
+        <div class="section-head about-heading">
           <p class="eyebrow">About</p>
           <h2>My background</h2>
         </div>
-        <div class="bio-panel">
-          <p>I'm a revenue and business operations professional with 3+ years supporting revenue-generating teams across SaaS, media, and B2B environments. My background includes Salesforce and HubSpot workflows, marketing-to-sales handoffs, performance reporting, CRM data quality, and cross-functional execution.</p>
-          <p>I built the AsterPeak Revenue Operations Command Center as an independent portfolio case study. AsterPeak is a fictional B2B SaaS company, and the project uses synthetic CRM data to model realistic RevOps problems and workflows.</p>
-          <div class="availability">Open to Revenue Operations, Sales Operations, Commercial Operations, and Business Operations roles • Remote or Chicago relocation</div>
+        <div class="about-content-grid">
+          <div class="bio-panel">
+            <p>I'm a revenue and business operations professional with 3+ years supporting revenue-generating teams across SaaS, media, and B2B environments. My background includes Salesforce and HubSpot workflows, marketing-to-sales handoffs, performance reporting, CRM data quality, and cross-functional execution.</p>
+            <p>I built the AsterPeak Revenue Operations Command Center as an independent portfolio case study. AsterPeak is a fictional B2B SaaS company, and the project uses synthetic CRM data to model realistic RevOps problems and workflows.</p>
+          </div>
+          <aside class="availability-panel" aria-label="Roles and work arrangements">
+            <p class="mini-label">Open to</p>
+            <h3>Revenue and business operations roles</h3>
+            <ul>
+              <li>Revenue Operations</li>
+              <li>Sales Operations</li>
+              <li>Commercial Operations</li>
+              <li>Business Operations</li>
+            </ul>
+            <p class="availability-note">Remote or Chicago relocation</p>
+          </aside>
         </div>
       </div>
     </section>
@@ -72,9 +85,9 @@
     <section class="section" id="experience">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Experience</p>
+          <p class="eyebrow">Experience &amp; Skills</p>
           <h2>Experience across SaaS, media, and B2B sales</h2>
-          <p>Across these roles, I worked on CRM accuracy, reporting, handoffs, prioritization, and day-to-day execution.</p>
+          <p>Across these roles, I worked on CRM accuracy, reporting, handoffs, prioritization, and execution.</p>
         </div>
         <div class="experience-list">
           <article class="experience-item">
@@ -89,6 +102,26 @@
             <div class="experience-head"><div><h3>Marketing Operations Intern</h3><p>LeaseQuery (now FinQuery)</p></div><span class="experience-date">Aug 2021 – May 2022</span></div>
             <ul><li>Supported Salesforce and HubSpot operations through campaigns, reports, forms, workflows, contact maintenance, and CRM troubleshooting.</li><li>Processed inbound leads, applied ICP qualification criteria, and routed records to the appropriate Sales owners.</li><li>Managed marketing-to-sales handoffs through a shared inbox, documenting requests and coordinating timely follow-up.</li></ul>
           </article>
+        </div>
+
+        <div class="tools-block" id="skills">
+          <div class="tools-heading">
+            <p class="eyebrow">Tools</p>
+            <h3>Tools I work with</h3>
+            <p>Core RevOps and analytics tools, plus the Google advertising platforms I used at Cox Media.</p>
+          </div>
+          <div class="tool-logo-grid" aria-label="Software tools">
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/salesforce/00A1E0" alt="" aria-hidden="true"><span>Salesforce</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/hubspot/FF7A59" alt="" aria-hidden="true"><span>HubSpot</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="" aria-hidden="true"><span>Power BI</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/microsoftexcel/217346" alt="" aria-hidden="true"><span>Microsoft Excel</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="" aria-hidden="true"><span>PostgreSQL / SQL</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/google/4285F4" alt="" aria-hidden="true"><span>Campaign Manager 360</span></div>
+            <div class="tool-logo-card"><img src="https://cdn.simpleicons.org/google/4285F4" alt="" aria-hidden="true"><span>Display &amp; Video 360</span></div>
+          </div>
+          <div class="skills capability-pills" aria-label="Operations capabilities">
+            <span>CRM Governance</span><span>Pipeline Management</span><span>Forecast Governance</span><span>Lead Routing</span><span>Deal Desk</span><span>Data Quality</span><span>Process Mapping</span><span>SOP Development</span><span>Executive Reporting</span><span>DAX</span>
+          </div>
         </div>
       </div>
     </section>
@@ -126,8 +159,8 @@
     <section class="section" id="approach">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">How I Work</p>
-          <h2>How I approach operations work</h2>
+          <p class="eyebrow">Approach</p>
+          <h2>How I work</h2>
           <p>I usually start with the business rule, check whether the data matches it, find the exceptions, and then figure out what process or control would prevent the issue from happening again.</p>
         </div>
         <div class="cards-3">
@@ -138,20 +171,7 @@
       </div>
     </section>
 
-    <section class="section section-white" id="skills">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Capabilities</p>
-          <h2>Tools and skills</h2>
-          <p>Focused on the analytical, systems, and process work behind effective Revenue Operations and Business Operations teams.</p>
-        </div>
-        <div class="skills">
-          <span>SQL</span><span>PostgreSQL</span><span>Microsoft Excel</span><span>Power BI</span><span>DAX</span><span>Salesforce</span><span>HubSpot</span><span>CRM Governance</span><span>Pipeline Management</span><span>Forecast Governance</span><span>Lead Routing</span><span>Deal Desk</span><span>Data Quality</span><span>Process Mapping</span><span>SOP Development</span><span>Executive Reporting</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
+    <section class="section contact-section" id="contact">
       <div class="container">
         <div class="cta">
           <div>
@@ -161,9 +181,6 @@
           </div>
           <div class="buttons">
             <a class="btn btn-light" href="mailto:tylerm0614@gmail.com">Email Me</a>
-            <a class="btn btn-light" href="assets/Tyler_Medders_Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
-            <a class="btn btn-light" href="https://linkedin.com/in/tyler-medders" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-            <a class="btn btn-light" href="https://github.com/TylerMedders" target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
         </div>
       </div>
