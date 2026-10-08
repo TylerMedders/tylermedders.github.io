@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AsterPeak Revenue Operations Command Center — end-to-end RevOps portfolio case study by Tyler Medders.">
+  <meta name="description" content="AsterPeak Revenue Operations Command Center | End-to-end RevOps portfolio case study by Tyler Medders.">
   <link rel="canonical" href="https://tylermedders.com/asterpeak.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="AsterPeak Revenue Operations Command Center | Tyler Medders">
@@ -34,7 +34,7 @@
       <div class="container">
         <p class="eyebrow">Portfolio Case Study</p>
         <h1>AsterPeak Revenue Operations Command Center</h1>
-        <p class="lede">An end-to-end RevOps operating model built around a synthetic B2B SaaS CRM environment — connecting analysis, reporting, Salesforce governance, lead routing, pipeline management, forecasting, Deal Desk, and process documentation.</p>
+        <p class="lede">A complete RevOps case study built around a synthetic B2B SaaS CRM environment. It covers analysis, reporting, Salesforce governance, lead routing, pipeline management, forecasting, Deal Desk, and process documentation.</p>
         <div class="project-meta">
           <span>13,864 records</span><span>SQL</span><span>Excel</span><span>Power BI</span><span>Salesforce</span><span>Process Design</span>
         </div>
@@ -64,14 +64,14 @@
         <div>
           <section class="prose-section">
             <p class="eyebrow">Business Context</p>
-            <h2>Visibility alone was not enough.</h2>
-            <p>AsterPeak Software is a fictional U.S.-based B2B SaaS company with approximately $15–20M in ARR and roughly 100 employees. The modeled revenue organization uses HubSpot for early marketing lifecycle activity and Salesforce as the primary sales system of record.</p>
-            <p>The core problem was broader than reporting. CRM data quality, lead routing, pipeline hygiene, forecast classification, and historical commercial-approval evidence all contained exceptions. The project was designed to identify those risks and then build a governed operating model around them.</p>
+            <h2>The business problem</h2>
+            <p>AsterPeak Software is a fictional U.S.-based B2B SaaS company with about $15M to $20M in ARR and roughly 100 employees. In the model, HubSpot handles early marketing lifecycle activity and Salesforce is the primary sales system of record.</p>
+            <p>The issue was not just reporting. I found exceptions in CRM data quality, lead routing, pipeline hygiene, forecast classification, and historical commercial-approval evidence. The goal was to identify those issues and then build controls and processes around them.</p>
           </section>
 
           <section class="prose-section" id="findings">
             <p class="eyebrow">Key Findings</p>
-            <h2>The analysis surfaced material operating risk.</h2>
+            <h2>What the analysis found</h2>
             <div class="metric-grid">
               <div class="metric"><strong>$6.02M</strong><span>open pipeline ARR</span></div>
               <div class="metric"><strong>$2.05M</strong><span>ARR flagged at risk</span></div>
@@ -79,7 +79,7 @@
               <div class="metric"><strong>95.7%</strong><span>forecast alignment</span></div>
             </div>
             <ul>
-              <li>53 of 160 open opportunities were stale, overdue, or both — representing roughly 34% of total open pipeline ARR.</li>
+              <li>53 of 160 open opportunities were stale, overdue, or both, representing roughly 34% of total open pipeline ARR.</li>
               <li>162 lead-routing exceptions included unassigned leads, territory mismatches, segment mismatches, and incomplete routing data.</li>
               <li>38 of 885 forecast snapshots were misaligned with expected stage-based categories.</li>
               <li>150 closed opportunities met modeled Deal Desk criteria, but only 61 had identifiable approval evidence.</li>
@@ -89,18 +89,18 @@
 
           <section class="prose-section" id="analysis">
             <p class="eyebrow">Analytics</p>
-            <h2>SQL, Excel, and Power BI were reconciled rather than treated as separate exercises.</h2>
-            <p>SQL established the analytical logic and findings. Excel provided record-level audit and reconciliation workflows. Power BI turned those outputs into executive and diagnostic reporting across pipeline health, sales performance, lead funnel and source, forecast reliability, and CRM / Deal Desk governance.</p>
+            <h2>How I analyzed the data</h2>
+            <p>I used SQL to build the analysis, Excel to audit and reconcile records, and Power BI to turn the results into executive and diagnostic reporting across pipeline health, sales performance, lead funnel and source, forecast reliability, and CRM / Deal Desk governance.</p>
             <div class="screen-grid">
-              <figure class="screen-card"><img src="assets/powerbi-executive.png" alt="Power BI executive overview dashboard"><figcaption class="caption">Power BI — Executive Overview</figcaption></figure>
-              <figure class="screen-card"><img src="assets/pipeline-health.png" alt="Power BI pipeline health view"><figcaption class="caption">Pipeline health — stale, overdue, and at-risk ARR</figcaption></figure>
+              <figure class="screen-card"><img src="assets/powerbi-executive.png" alt="Power BI executive overview dashboard"><figcaption class="caption">Power BI: Executive Overview</figcaption></figure>
+              <figure class="screen-card"><img src="assets/pipeline-health.png" alt="Power BI pipeline health view"><figcaption class="caption">Pipeline health: stale, overdue, and at-risk ARR</figcaption></figure>
             </div>
           </section>
 
           <section class="prose-section" id="implementation">
             <p class="eyebrow">Salesforce Governance</p>
-            <h2>Findings were converted into preventative controls.</h2>
-            <p>The Salesforce implementation demonstrates how RevOps can move from observing data-quality problems to preventing specific governance failures at the point of execution.</p>
+            <h2>What I built in Salesforce</h2>
+            <p>The Salesforce work shows how the analysis could be turned into controls that catch problems before they move further through the sales process.</p>
             <ul>
               <li>Custom fields for Net ARR, discounting, implementation discounts, payment terms, billing schedule, custom pricing, nonstandard terms, Deal Desk requirement, and approval status.</li>
               <li>Formula logic to automatically identify opportunities requiring Deal Desk review.</li>
@@ -108,15 +108,15 @@
               <li>Operational reports and a Salesforce governance dashboard for pipeline and approval visibility.</li>
             </ul>
             <div class="screen-grid">
-              <figure class="screen-card"><img src="assets/salesforce-validation-rules.png" alt="Salesforce validation rules"><figcaption class="caption">Salesforce — active validation rules supporting opportunity governance</figcaption></figure>
-              <figure class="screen-card"><img src="assets/salesforce-governed-opportunity.png" alt="Governed Salesforce opportunity record"><figcaption class="caption">Governed opportunity — Deal Desk requirement and approval recorded before progression</figcaption></figure>
+              <figure class="screen-card"><img src="assets/salesforce-validation-rules.png" alt="Salesforce validation rules"><figcaption class="caption">Salesforce: active validation rules supporting opportunity governance</figcaption></figure>
+              <figure class="screen-card"><img src="assets/salesforce-governed-opportunity.png" alt="Governed Salesforce opportunity record"><figcaption class="caption">Governed opportunity: Deal Desk requirement and approval recorded before progression</figcaption></figure>
             </div>
           </section>
 
           <section class="prose-section" id="process">
             <p class="eyebrow">Process Design</p>
-            <h2>The operating model was documented so the controls could be repeated.</h2>
-            <p>Three workflows were formalized: Marketing-to-Sales Lead Handoff, Opportunity Pipeline Governance, and Deal Desk Approval Workflow. Supporting SOPs define owners, triggers, escalation paths, and the expected management cadence.</p>
+            <h2>How I documented the workflows</h2>
+            <p>I documented three workflows: Marketing-to-Sales Lead Handoff, Opportunity Pipeline Governance, and Deal Desk Approval Workflow. The supporting SOPs define owners, triggers, escalation paths, and the expected management cadence.</p>
             <div class="image-frame">
               <img src="assets/process-pipeline-governance.png" alt="AsterPeak opportunity pipeline governance process map">
             </div>
@@ -124,7 +124,7 @@
 
           <section class="prose-section" id="deliverables">
             <p class="eyebrow">Deliverables</p>
-            <h2>Full project package</h2>
+            <h2>Project files</h2>
             <p>The public repository contains the analysis, source data, audit workbook, Power BI file and screenshots, Salesforce evidence, process maps, SOPs, executive recommendations, and final case study.</p>
             <div class="project-links">
               <a class="btn btn-primary" href="https://github.com/TylerMedders/asterpeak-revenue-operations-command-center" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
