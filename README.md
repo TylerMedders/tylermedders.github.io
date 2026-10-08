@@ -1,12 +1,9 @@
 # Tyler Medders Portfolio
 
-Static portfolio website for Tyler Medders, hosted with GitHub Pages.
+Personal portfolio site for Tyler Medders, focused on Revenue Operations and Business Operations.
 
-## Pages
+Live site: https://tylermedders.com
 
-- `index.html` — portfolio homepage
-- `asterpeak.html` — AsterPeak Revenue Operations Command Center case study
+## Featured project
 
-## Project repository
-
-https://github.com/TylerMedders/asterpeak-revenue-operations-command-center
+AsterPeak Revenue Operations Command Center — an end-to-end synthetic B2B SaaS RevOps case study using SQL/PostgreSQL, Excel, Power BI, Salesforce, and process design.
