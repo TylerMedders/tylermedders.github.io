@@ -1,0 +1,66 @@
+/* AsterPeak detail-image polish */
+.screen-grid {
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.screen-card {
+  margin: 0;
+  box-shadow: 0 10px 30px rgba(16, 40, 63, 0.07);
+}
+
+.screen-link,
+.process-link {
+  display: block;
+  text-decoration: none;
+}
+
+.screen-link img,
+.process-link img {
+  width: 100%;
+  height: auto;
+}
+
+.screen-link img {
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.screen-link:hover img {
+  transform: scale(1.006);
+  opacity: 0.98;
+}
+
+.screen-card .caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  font-size: 0.95rem;
+}
+
+.screen-card .caption span {
+  color: var(--blue);
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.process-link .image-frame {
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.process-link:hover .image-frame {
+  border-color: #b8c7d4;
+  box-shadow: 0 20px 55px rgba(16, 40, 63, 0.13);
+}
+
+@media (max-width: 640px) {
+  .screen-grid {
+    gap: 20px;
+  }
+
+  .screen-card .caption {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
